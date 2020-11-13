@@ -1,0 +1,79 @@
+@font-face{
+    font-family: 'DroidSerif';
+    src: url(fonts/DroidSerif.ttf);
+}
+
+@font-face{
+    font-family: 'Raleway';
+    src: url(fonts/Raleway.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1b1b1b;
+}
+
+.header{
+    width: 100%;
+    position: fixed;
+    background: linear-gradient(to top, #1b1b1b 40%, #141414);
+}
+
+.navbar{
+    margin: 0 auto;
+    width: 425px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar li{
+    margin: 35px auto;
+}
+
+a{
+    font-family: 'Raleway';
+    font-size: 20px;
+    color: #ac752f;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover{
+    color: #c78d11;    
+    font-weight: 700;
+}
+
+.main{
+    height: 600px;
+}
+
+.footer{
+    height: 70px;
+    border-top: 1px solid #b17f13;
+}
+
+.social_networks{
+    display: flex;
+    margin: 0 auto;
+    width: 325px;
+}
+
+.social_networks a{
+    margin: 10px auto;
+}
+
+.social_networks img{
+    transition: 0.3s;
+}
+
+.social_networks img:hover{
+    transform: scale(1.15);
+}
+

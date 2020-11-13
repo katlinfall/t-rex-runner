@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Rex</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="assets/index.css">
+    
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul>                
+                <li><a href="play.html">Play</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#follow">Follow</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <img id="sprite" src="./assets/sprite.png" alt="sprite" />
+		<div class="drawable">
+			<canvas id="game-canvas" width="600" height="300"></canvas>
+		</div>
+    </main>
+    <footer class="footer">
+        <div id="follow"class="social_networks">
+            <a href="#"><img src="assets/images/facebook_logo.png" alt="facebook"></a>
+            <a href="#"><img src="assets/images/twitter_logo.png" alt="twitter"></a>
+            <a href="#"><img src="assets/images/instagram_logo.png" alt="instagram"></a>
+        </div>
+    </footer>
+
+    <script type="module" src="./dist/main.js"></script>
+</body>
+</html>

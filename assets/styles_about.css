@@ -1,0 +1,27 @@
+.main {
+    background-image: url(images/about.png);
+    background-size: cover;
+}
+
+.about_project{
+    width: 381px;
+    margin: 0px 349px 0px auto;
+    padding-top: 212px;
+    font-family: Raleway;
+}
+
+.about_project h1{
+    color:#c78d11;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.about_project p, .about_project a{
+    margin-top: 16px;
+    color:#ffd000;
+    font-size: 27px;
+}
+
+.about_project a{
+    color:#f8aa00;
+}

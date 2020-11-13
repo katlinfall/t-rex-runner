@@ -2,16 +2,20 @@
   box-sizing: border-box;
 }
 
-body{
-  background-color: brown;
+.drawable {
+  padding-top: 100px;
 }
 
 #game-canvas {
+  
+  display: block;
+  position: relative;
   width: 600px;
   height: 300px;
-  margin: auto;
+  margin: 0 auto;
   border: 1px solid black;
 }
+
 
 #sprite {
   display: none;
